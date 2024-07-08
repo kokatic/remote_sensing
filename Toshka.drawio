@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net" modified="2024-07-08T09:49:53.642Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="QhxS6ARBWnJdTeYA2qk9" version="24.6.4" type="device">
+  <diagram name="Page-1" id="yrDTTN0_0kGeJJBkay2V">
+    <mxGraphModel dx="1678" dy="275" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IHBTYPFmJZoFDnZxKVrR-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IHBTYPFmJZoFDnZxKVrR-1" target="IHBTYPFmJZoFDnZxKVrR-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IHBTYPFmJZoFDnZxKVrR-1" value="&lt;b&gt;Image 2017&lt;br&gt;bands: NIR, RED, GREEN&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="178" y="633" width="162" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="IHBTYPFmJZoFDnZxKVrR-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IHBTYPFmJZoFDnZxKVrR-2" target="IHBTYPFmJZoFDnZxKVrR-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IHBTYPFmJZoFDnZxKVrR-2" value="&lt;b&gt;Image 2024&lt;br&gt;bands: NIR, RED, GREEN&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="512" y="633" width="158" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="IHBTYPFmJZoFDnZxKVrR-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IHBTYPFmJZoFDnZxKVrR-6" target="IHBTYPFmJZoFDnZxKVrR-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IHBTYPFmJZoFDnZxKVrR-6" value="NDVI &amp;amp; MNDWI&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Applying&amp;nbsp;thresholds&lt;/span&gt;" style="label;whiteSpace=wrap;html=1;image=img/clipart/Gear_128x128.png;align=center;" vertex="1" parent="1">
+          <mxGeometry x="336" y="747" width="200" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="IHBTYPFmJZoFDnZxKVrR-9" value="(NDVI (2024) - NDVI (2017)) OR (NDWI (2024) - NDWI (2017))" style="label;whiteSpace=wrap;html=1;align=center;verticalAlign=bottom;spacingLeft=0;spacingBottom=4;imageAlign=center;imageVerticalAlign=top;image=img/clipart/Gear_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="256.75" y="819" width="358.5" height="79" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
